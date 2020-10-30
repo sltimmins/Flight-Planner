@@ -8,4 +8,4 @@ Austin|El Paso|T
 Billings|Detroit|C
 Billings|Greensboro|C
 Chicago|Greensboro|T
-Philiadelphia|Texas|T
+Philadelphia|Texas|T
