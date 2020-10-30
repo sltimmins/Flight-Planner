@@ -1,0 +1,46 @@
+Flight 1: Dallas, Houston (Time)
+Dallas -> Houston. Time: 51 Cost: $101.00
+Dallas -> Austin -> Houston. Time: 84 Cost: $164.00
+Dallas -> Austin -> Houston. Time: 129 Cost: $215.00
+
+Flight 2: Dallas, Austin (Cost)
+Dallas -> Austin. Time: 2 Cost: $50.00
+Dallas -> Austin. Time: 47 Cost: $101.00
+Dallas -> Houston -> Austin. Time: 133 Cost: $215.00
+
+Flight 3: Dallas, Illinois (Time)
+Dallas -> Austin -> Illinois. Time: 95 Cost: $109.00
+Dallas -> Austin -> Illinois. Time: 140 Cost: $160.00
+Dallas -> Austin -> Illinois. Time: 152 Cost: $1059.00
+
+Flight 4: Dallas, Houston (Cost)
+Dallas -> Houston. Time: 51 Cost: $101.00
+Dallas -> Austin -> Houston. Time: 84 Cost: $164.00
+Dallas -> Austin -> Houston. Time: 129 Cost: $215.00
+
+Flight 5: Dallas, Texas (Cost)
+No flight plans available between these cities.
+
+Flight 6: Austin, El Paso (Time)
+Austin -> Detroit -> El Paso. Time: 168 Cost: $165.00
+Austin -> Billings -> El Paso. Time: 176 Cost: $189.00
+Austin -> Detroit -> Billings -> El Paso. Time: 242 Cost: $274.00
+
+Flight 7: Billings, Detroit (Cost)
+Billings -> Detroit. Time: 28 Cost: $75.00
+Billings -> El Paso -> Detroit. Time: 186 Cost: $104.00
+Billings -> Austin -> Detroit. Time: 158 Cost: $250.00
+
+Flight 8: Billings, Greensboro (Cost)
+Billings -> El Paso -> Greensboro. Time: 196 Cost: $102.00
+Billings -> Detroit -> El Paso -> Greensboro. Time: 264 Cost: $181.00
+Billings -> Detroit -> Chicago -> Greensboro. Time: 244 Cost: $248.00
+
+Flight 9: Chicago, Greensboro (Time)
+Chicago -> Greensboro. Time: 50 Cost: $65.00
+Chicago -> Fresno -> Greensboro. Time: 133 Cost: $151.00
+Chicago -> Detroit -> Fresno -> Greensboro. Time: 264 Cost: $263.00
+
+Flight 10: Philiadelphia, Texas (Time)
+No flight plans available between these cities.
+

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="20f-flt-pln"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flight_planner">
+				<Option output="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/flight_planner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 flight_planner"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flight_planner/fast">
+				<Option output="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/flight_planner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 flight_planner/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/AdjListTests.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSLinkedList.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStack.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStackTests.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSVector.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightAdjacencyList.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightAdjacencyList.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlan.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlan.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlanner.h">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/LinkedListTest.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/catch.hpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/main.cpp">
+			<Option target="flight_planner"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightData.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/RequestedFlightPlans.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

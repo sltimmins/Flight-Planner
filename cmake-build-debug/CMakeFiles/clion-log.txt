@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins
+-- Configuring done
+CMake Error at CMakeLists.txt:28 (add_executable):
+  Cannot find source file:
+
+    DSVector.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:28 (add_executable):
+  No SOURCES given to target: flight_planner
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

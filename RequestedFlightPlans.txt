@@ -1,0 +1,11 @@
+10
+Dallas|Houston|T
+Dallas|Austin|C
+Dallas|Illinois|T
+Dallas|Houston|C
+Dallas|Texas|C
+Austin|El Paso|T
+Billings|Detroit|C
+Billings|Greensboro|C
+Chicago|Greensboro|T
+Philiadelphia|Texas|T
