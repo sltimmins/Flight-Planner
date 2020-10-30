@@ -6,95 +6,95 @@
 
 #IncludeRegexTransform: 
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/AdjListTests.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/AdjListTests.cpp
 catch.hpp
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/catch.hpp
 Flight.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/Flight.h
 FlightAdjacencyList.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightAdjacencyList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightAdjacencyList.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSLinkedList.h
 iostream
 -
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStack.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSStack.h
 DSLinkedList.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSLinkedList.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStackTests.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSStackTests.cpp
 catch.hpp
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/catch.hpp
 DSStack.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStack.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSStack.h
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSString.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSString.cpp
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSString.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSString.h
 iostream
 -
 cstring
 -
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSVector.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSVector.h
 iostream
 -
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/Flight.cpp
 Flight.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/Flight.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/Flight.h
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSString.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightAdjacencyList.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightAdjacencyList.cpp
 FlightAdjacencyList.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightAdjacencyList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightAdjacencyList.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightAdjacencyList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightAdjacencyList.h
 DSLinkedList.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSLinkedList.h
 Flight.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/Flight.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlan.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightPlan.cpp
 iomanip
 -
 FlightPlan.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlan.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightPlan.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlan.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightPlan.h
 DSStack.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStack.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSStack.h
 Flight.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/Flight.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlanner.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightPlanner.h
 Flight.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Flight.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/Flight.h
 FlightPlan.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlan.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightPlan.h
 FlightAdjacencyList.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightAdjacencyList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightAdjacencyList.h
 DSStack.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStack.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSStack.h
 DSVector.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSVector.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSVector.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/LinkedListTest.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/LinkedListTest.cpp
 catch.hpp
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/catch.hpp
 DSLinkedList.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSLinkedList.h
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSString.h
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/catch.hpp
 TargetConditionals.h
 -
 ciso646
@@ -470,7 +470,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/Foundation/Foundation.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/Foundation/Foundation.h
 limits
 -
 set
@@ -674,15 +674,15 @@ algorithm
 cassert
 -
 
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/main.cpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/main.cpp
 fstream
 -
 iostream
 -
 catch.hpp
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Flight-Planner/catch.hpp
 DSStack.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/DSStack.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/DSStack.h
 FlightPlanner.h
-/Users/stimmins/Documents/GitHub/20f-flt-pln-sltimmins/FlightPlanner.h
+/Users/stimmins/Documents/GitHub/Flight-Planner/FlightPlanner.h
 
