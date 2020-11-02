@@ -28,13 +28,17 @@ FlightPlan &FlightPlan::operator=(const FlightPlan &copy)
 }
 
 ostream &operator<<(ostream &os, FlightPlan &plan) {
-    for(int i = 0; i < plan.flights.getSize() - 1; i++)
+    os << plan.flights.at(0).getDest() << " -> ";
+
+    for(int i = 1; i < plan.flights.getSize() - 1; i++)
     {
-        os << plan.flights.at(i).getDest() << " -> ";
+        os << plan.flights.at(i).getDest() << " (" << plan.flights.at(i).getAirline()
+           << ")" << " -> ";
     }
 
-    os << fixed << setprecision(2) << plan.flights.at(plan.flights.getSize() - 1).getDest() << ". Time: "
-         << plan.totalTime << " Cost: $" << plan.totalPrice << endl;
+    os << fixed << setprecision(2) << plan.flights.at(plan.flights.getSize() - 1).getDest()
+       << " (" << plan.flights.at(plan.flights.getSize() - 1).getAirline() << ")"
+       << ". Time: " << plan.totalTime << " Cost: $" << plan.totalPrice << endl;
 
     return os;
 }
