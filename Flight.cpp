@@ -55,6 +55,9 @@ Flight &Flight::operator=(const DSString &location)
     return *this;
 }
 
+/**
+ * compares the destination members of two flights and returns if they are equivalent
+ */
 bool Flight::operator==(const Flight &toCompare)
 { //all members of the object must be equivalent
     return destination == toCompare.destination;
