@@ -71,6 +71,7 @@ DSVector<T> & DSVector<T>::operator=(const DSVector<T> &copy)
     {
         data[i] = copy.data[i];
     }
+    return *this;
 }
 
 template <typename T>
