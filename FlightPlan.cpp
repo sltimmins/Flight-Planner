@@ -54,6 +54,10 @@ void FlightPlan::addPlan(const DSLinkedList<Flight> plan)
     }
 }
 
+/**
+ * calculates the time and price of the flight plan including layovers
+ */
+
 void FlightPlan::calculateTimeAndPrice()
 {
     for(int i = 0; i < flights.getSize(); i++)
@@ -66,9 +70,17 @@ void FlightPlan::calculateTimeAndPrice()
     totalPrice += (flights.getSize() - 2) * 19.00;
 }
 
+/**
+ * returns if the this member's price is greater than the parameter's price
+ */
+
 bool FlightPlan::comparePrice(const FlightPlan &f2) {
     return totalPrice > f2.totalPrice;
 }
+
+/**
+ * returns if the this member's time is greater than the parameter's time
+ */
 
 bool FlightPlan::compareTime(const FlightPlan &f2)
 {
