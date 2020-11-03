@@ -34,7 +34,7 @@ private:
 template <typename T>
 DSVector<T>::DSVector()
 {
-    data = new T[0];
+    data = nullptr;
     size = 0;
 }
 
