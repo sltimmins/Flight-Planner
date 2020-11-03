@@ -11,6 +11,10 @@
 #include "DSStack.h"
 #include "DSVector.h"
 
+/**
+ * parses the files character by character until the specified delimiter
+ */
+
 DSString getline(DSString &line, int &i, const char delim)
 {
     DSString word;
@@ -108,9 +112,9 @@ void checkConnections(FlightAdjacencyList &flights, DSStack<Flight> &stack, DSVe
  * finds the possible flight paths from the origin to the final destination
  */
 
-DSVector<FlightPlan> findFlightPaths(FlightAdjacencyList &flights, const Flight &origin, const Flight &destination)
+void findFlightPaths(DSVector<FlightPlan>& plansToReturn, FlightAdjacencyList &flights, const Flight &origin, const Flight &destination)
 {
-    DSVector<FlightPlan> plansToReturn;
+    //DSVector<FlightPlan> plansToReturn;
     DSStack<Flight> stack;
 
     if(flights.findOrigin(origin) >= 0)
@@ -123,7 +127,7 @@ DSVector<FlightPlan> findFlightPaths(FlightAdjacencyList &flights, const Flight 
         }
     }
 
-    return plansToReturn;
+    //return plansToReturn;
 }
 
 /**
@@ -236,7 +240,7 @@ void planFlights(ifstream &data, ifstream &paths, ofstream &plans)
                  << destination.getDest() << " (Cost)" << endl;
         }
 
-        possiblePlans = findFlightPaths(flights, origin, destination);
+        findFlightPaths(possiblePlans, flights, origin, destination);
 
         for(int j = 0; j < possiblePlans.getSize(); j++)
         {
